@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald:wght@400;500&family=Rajdhani&display=swap');
+*{
+    margin:0;
+     box-sizing: border-box;
+     padding: 0;
+}
+#logo {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 28px;
+}
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(60, 3, 15);
+    padding: 15px 5px;
+    font-family: 'Alkatra', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+   padding: 13px 20px;
+   color: aliceblue;
+   font-size: 1.2rem;
+}
+#introSection{
+    color: rgb(232, 229, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 70px;
+    font-size: 35px ;
+    height: 500px;
+    background:center/cover no-repeat url("/static/dance3.jpg");
+    opacity: 0.85;
+    font-weight: bold;
+   
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+}
+#missionSection{
+    height: 360px;
+    background-color: rgba(112, 93, 98, 0.893);
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(229, 248, 248);
+    font-family: 'Alkatra', cursive;
+    font-size: 2.7rem;
+    padding-bottom: 2rem;
+}
+.card{
+    border: 2px solid black;
+    height: 209px;
+    border-radius: 10px;
+    width: 25%;
+    display: inline-block;
+    margin-left: 2rem;
+
+}
+.card h3{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(229, 248, 248);;
+    font-family: 'Oswald', sans-serif;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+}
+.card-img{
+    height: 132px;
+    margin-top: 9px;
+}
+.card-img img{
+    height: inherit;
+    
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: rgba(99, 72, 79, 0.893);
+}
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(207, 214, 220);
+    height: 300px;
+    font-size: 2.7rem;
+    font-family: 'Alkatra', cursive;
+}
+#sponsors{
+    margin: auto;
+}
+.apple{
+    height: 110px;
+    padding-right: 3rem;
+}
+.macdonald{
+    height: 90px;
+    padding-right: 3rem;
+}
+.nike{
+    height: 150px;
+    padding-right: 3rem;
+}
+.swiggy{
+    height: 140px;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+#footer{
+    height: 60px;
+    background-color: rgb(60, 3, 15);
+    padding: 0;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 1rem;
+}

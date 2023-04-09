@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald:wght@400;500&family=Rajdhani&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 12px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.container{
+    justify-content: center;
+    min-height:7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 8px 20px;
+    background: #403d3d;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+    
+

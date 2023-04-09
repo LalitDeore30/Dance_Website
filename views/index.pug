@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+     title ABCD Dance Aademy
+     style
+      include ../static/style.css
+    body 
+     nav#navbar
+      ul 
+        div#logo
+          img(src="/static/nav.png")
+          |ABCD 
+        
+        li #[a(href="/") Home] 
+        li #[a(href="/") About] 
+        li #[a(href="/") Services] 
+        li #[a(href="/") Class Info] 
+        li #[a(href="/") Contact Us] 
+
+     section#introSection
+       div Welcome to ABCD Dance Academy 
+       div.small Eat Sleep Dance Repeat !
+
+     section#missionSection
+      center 
+       h2 Our mission is
+       div.card 
+         h3 Expert Teaching
+              div.card-box 
+                div.card-img 
+                  img(src="/static/card1.png") 
+                div.card-content 
+                 p This is the best dance academy in entier India.
+
+       div.card 
+         h3 Dance which you like
+             div.card-box 
+                div.card-img 
+                  img(src="/static/card3.png") 
+                div.card-content 
+                 p This is the best dance academy in entier India.
+       div.card 
+         h3 Dance Perfection
+             div.card-box 
+                div.card-img 
+                  img(src="/static/card2.png") 
+                div.card-content 
+                 p This is the best dance academy in entier India.
+     section#sponsorsSection
+       h2 Our sponsors 
+        div#sponsors
+         img(src="/static/apple.png" alt="sponsors image" class="apple")
+         img(src="/static/macdonalds.png" alt="sponsors image" class="macdonald")
+         img(src="/static/nike.png" alt="sponsors image" class="nike")
+         img(src="/static/swiggy.png" alt="sponsors image" class="swiggy")
+     
+     footer#footer
+       |Copyright © 2023 ABCDDanceAcademy.com | All writes reserved 
+     script 
+       include ../static/index.js 
